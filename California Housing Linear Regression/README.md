@@ -1,8 +1,17 @@
 # California Housing Linear Regression with sklearn
 
-**### Intro : sklearn dataset
-This dataset is perfect for beginners because it includes real-world data, is well-structured, and allows for exploring different preprocessing and modeling techniques. It can also be imported directly from sklearn library.
-In this project, I leveraged Python and linear regression to build a model capable of predicting median housing prices in California. Using machine learning, I demonstrated how data insights could guide real-life decisions, such as determining a fair price for a home based on its features.
+This project explores the California Housing Dataset using Python and linear regression to predict median house prices based on key features like income, house age, and location. Designed as a beginner-friendly tutorial, it demonstrates step-by-step how to clean and preprocess data, analyze correlations, and build a predictive model using sklearn.
 
-## Data Preparation
-To begin, I imported the necessary libraries and loaded the California Housing Dataset from sklearn. This dataset includes various features like median income, average room count, and geographic details to predict median house values. I also formatted numerical outputs to display with two decimal places for easier readability. **
+Key highlights include:
+
+Data Cleaning: Outlier removal, log transformation, and standardization.
+
+Exploratory Data Analysis: Correlation analysis and visualizations to identify impactful features.
+
+Model Building: Linear regression with evaluation metrics like R-squared, RMSE, and MAE.
+
+Real-Life Application: Predicting housing prices with confidence intervals for actionable insights.
+
+This repository is ideal for those looking to learn data preprocessing, build machine learning models, and apply them to real-world datasets. The full code and explanations are provided to guide beginners through the process.
+
+Details posted in my Medium blog
