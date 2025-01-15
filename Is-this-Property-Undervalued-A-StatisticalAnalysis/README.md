@@ -8,3 +8,5 @@ Model Building: Linear regression implementation with performance metrics like R
 Real-Life Application: Demonstrated actionable insights by predicting property prices and assessing confidence intervals.
 Malaysian Property Market Analysis:
 Objective: Assess whether property listings are overpriced, underpriced, or fairly priced based on predictions from a machine learning model.
+
+Details posted in my Medium Blog
