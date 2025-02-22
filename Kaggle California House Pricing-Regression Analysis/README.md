@@ -1,34 +1,40 @@
-This project explores predicting median house values in California using machine learning. We analyze key housing factors such as location, median income, and housing characteristics to identify what drives property prices. The goal is to build an accurate model that can help homebuyers, investors, and policymakers make data-driven decisions.
+# 🏡 California Housing Price Prediction  
 
-Dataset
-Source: California Housing Prices (Kaggle)
-Target Variable: median_house_value (House Price)
-Features Used: Median income, house age, total rooms, population, latitude, longitude, and more
-Machine Learning Models Tested
-Linear Regression
-Polynomial Regression
-Decision Tree Regression
-Random Forest Regression
-XGBoost Regression (Best performing model)
-Key Findings
-✔ Income is the strongest predictor – Higher median incomes lead to higher house prices
-✔ Location matters – Inland properties tend to have lower prices compared to coastal areas
-✔ XGBoost is the best model – Achieved the highest accuracy with R² = 0.88 and lowest RMSE = 0.46
+## 📌 Project Overview  
+This project aims to predict the **median house value in California** based on housing characteristics, location, and demographics. By leveraging **machine learning models**, we analyze key factors driving house prices and assess how well different models perform in making predictions.  
 
-Key Techniques & Preprocessing
-Feature Engineering: One-hot encoding, correlation analysis, feature scaling
-Data Cleaning: Log transformation to normalize skewed data
-Hyperparameter Tuning: Optimized models for better accuracy
-Feature Importance Analysis: Identified which factors impact prices the most
-Next Steps & Future Improvements
-🚀 Incorporate additional features (crime rates, school ratings)
-🚀 Explore deep learning models for better predictions
-🚀 Optimize hyperparameters further
+## 📊 Dataset Information  
+- **Source:** [California Housing Prices Dataset (Kaggle)](https://www.kaggle.com/datasets/camnugent/california-housing-prices)  
+- **Target Variable:** `median_house_value` (House Price)  
+- **Independent Variables:** Features like `longitude`, `latitude`, `total_rooms`, `population`, `ocean_proximity`, etc.  
 
-How to Run This Project
-Download the dataset from Kaggle
-Clone this repository
-Run the Jupyter Notebook / Python script
-📌 Full Code Available: GitHub Repository
+## 🛠️ Methods & Models Used  
+The following machine learning models were applied and compared:  
+1. **Linear Regression**  
+2. **Polynomial Regression**  
+3. **Decision Tree Regression**  
+4. **Random Forest Regression**  
+5. **XGBoost Regression** (Best-performing model)  
 
-This project is part of my ML learning journey, where I focus on applying machine learning to real-world problems. Follow along as I explore, experiment, and refine my skills! 🚀
+🔹 **Feature Engineering & Data Preprocessing:**  
+- Applied **log transformation** to normalize skewed data.  
+- Created **dummy variables** for categorical features (`ocean_proximity`).  
+- Used **StratifiedShuffleSplit** to maintain balanced train-test splits.  
+- Scaled numerical features using **StandardScaler**.  
+
+🔹 **Hyperparameter Tuning:**  
+- Tuned models for better accuracy and generalization.  
+- Compared **R-squared, RMSE (Root Mean Squared Error), and MAE (Mean Absolute Error)** across models.  
+
+## 🔍 Key Findings  
+✔️ **Income is the biggest factor influencing house prices** in California.  
+✔️ **Houses further inland tend to have lower prices** (negative correlation).  
+✔️ **XGBoost outperformed all other models**, achieving the best prediction accuracy.  
+
+## 🚀 How to Run the Project  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/yourusername/california-housing-prediction.git
+
+## 📝 I Wrote about this Project
+-  [Medium Post](https://medium.com/@kwanqi.yt/kaggle-california-house-pricing-a-machine-learning-approach-33ae91b2ee2b)  
